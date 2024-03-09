@@ -1,7 +1,7 @@
 <?php
 $serverNameDb="localhost";
 $usernameDb="root";
-$passwordDb="1234";
+$passwordDb="";
 $dbName="eproject_aptech";
 global $conn;
 $conn= new mysqli($serverNameDb,$usernameDb,$passwordDb,$dbName);

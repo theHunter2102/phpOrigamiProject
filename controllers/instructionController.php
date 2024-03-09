@@ -6,7 +6,6 @@ class instructionController
 
     public function getGuide($modelId)
     {
-        require_once("../models/instructionModel.php");
 
             $guideModel = new instructionModel();
             $guideItems = $guideModel->getGuideDb($modelId);
