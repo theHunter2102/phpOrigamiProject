@@ -1,34 +1,19 @@
 # OrigaMe (Origami Study Hub)
 
-Welcome to OrigaMe - the perfect place to learn the art of paper folding, Origami!
+OrigaMe là một Website về origami.
 
-## Table of Contents
-
-- [Introduction]
-- [Prerequisites]
-- [Usage]
-
-## Introduction
-
-OrigaMe is a wonderful place where you can learn and explore the art of Origami. We provide detailed diagrams for each Origami model to help you carry out the paper-folding process easily and effectively.
-
-## Prerequisites
+Yêu Cầu Hệ Thống
+IDE: PhpStorm
+CSDL: MySQL
 
 
-Start using Origami Study Hub by following these steps:
+Cấu hình CSDL
 
-1. Install MySQL: Download and install MySQL from https://www.mysql.com
+Tạo một cơ sở dữ liệu mới trong MySQL.
+Điều chỉnh các thông tin kết nối CSDL trong file phpOrigamiProject/models/connectDb.php
 
-2. Install XAMPP: Download and install XAMPP from https://www.apachefriends.org/index.html
+Đóng Góp
+Nếu bạn muốn đóng góp cho dự án, vui lòng tạo một pull request hoặc mở một issue trên GitHub.
 
-3. Choose an IDE (Integrated Development Environment):
-   - For Visual Studio Code: Download and install Visual Studio Code from https://code.visualstudio.com
-   - For PhpStorm: Download and install PhpStorm from https://www.jetbrains.com/phpstorm
-
-## Usage
-
-Run the Program:
-
-- Open the index.php file located in phpOrigamiProject/views/ with your chosen IDE.
-- Ensure that the PHP file is free of syntax errors.
-- Save any changes and rub file.
+Giấy Phép
+Ứng dụng này được phát hành dưới giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
